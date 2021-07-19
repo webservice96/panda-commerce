@@ -1,0 +1,98 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* common css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F4F4;
+}
+
+nav,
+.hero-section {
+    margin-bottom: 60px;
+}
+
+
+/* navbar css */
+
+header {
+    padding: 50px 0;
+    background-color: white
+}
+
+.panda-navbar {
+    justify-content: flex-end;
+}
+
+.panda-search-form {
+    position: relative;
+}
+
+.panda-searchbox {
+    border-radius: 20px;
+    background-color: #F1F1F1;
+}
+
+.search-icon {
+    position: absolute;
+    right: -9px;
+    top: 8px;
+}
+
+.search-icon i {
+    font-size: 19px;
+    color: #BABABA;
+}
+
+
+/* slider css */
+
+.hero-section {
+    background-color: #FEEAE9;
+    padding: 50px;
+}
+
+.slide-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.slide-content p {
+    color: #4E4E4E;
+    padding-right: 160px;
+    font-size: 16px;
+}
+
+.slide-content span.slide-price {
+    color: #FF136F;
+    font-size: 40px;
+    display: block;
+    font-weight: 500;
+}
+
+.slide-content a {
+    background-color: #FF136F;
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    transition: 3.s;
+}
+
+.slide-content a:hover {
+    opacity: .7
+}
+
+.hero-section .carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
