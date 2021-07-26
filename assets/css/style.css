@@ -96,3 +96,73 @@ header {
 .hero-section .carousel-indicators [data-bs-target] {
     background-color: #000;
 }
+
+
+/* category section css */
+
+.cat-box-1 {
+    background-image: linear-gradient(to right bottom, #ff9c35, #ffa92e, #ffb527, #ffc31f, #ffd019);
+}
+
+.cat-box-2 {
+    background-image: linear-gradient(to right bottom, #ff589b, #ff4c91, #ff3e86, #ff2d7b, #ff136f);
+}
+
+.cat-box-3 {
+    background-image: linear-gradient(to left bottom, #4289ff, #2274ff, #0c5dff, #2240ff, #3f07f8);
+}
+
+.cat-box {
+    padding: 15px 20px;
+}
+
+.cat-box a {
+    text-decoration: none;
+}
+
+.cat-box h2 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+
+/* product section css */
+
+.section-menu .see-all {
+    color: #FF9D00;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.section-menu .see-all:hover {
+    opacity: .8;
+}
+
+.products {
+    padding: 60px 0;
+}
+
+.product-box {
+    background-color: #fff;
+    padding: 30px;
+    height: 100%;
+}
+
+.product-box .p-title,
+.product-box .price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.product-box .buy-bnt:hover {
+    opacity: 0.8
+}
