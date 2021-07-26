@@ -166,3 +166,29 @@ header {
 .product-box .buy-bnt:hover {
     opacity: 0.8
 }
+
+
+/* footer css */
+
+.site-footer {
+    padding: 80px
+}
+
+.footer-box {
+    background-color: #FFF2F1;
+    padding: 150px 0;
+}
+
+.subscribe-form input {
+    padding: 15px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.subscribe-form button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+    color: white;
+    padding: 15px 40px;
+}
